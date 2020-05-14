@@ -1,19 +1,19 @@
 # Spring Boot Kafka Usage
 
-Based on:
+**Based on**:
 
 1. Pluralsight's course [Getting Started with Apache Kafka](https://app.pluralsight.com/library/courses/apache-kafka-getting-started/table-of-contents)
 2. Baeldung's article [Intro to Apache Kafka with Spring](https://www.baeldung.com/spring-kafka)
 
-Application's API:
+**Application's API**:
 
-GET <http://localhost:8080/message> (Retrieve all consumed messages)
-POST <http://localhost:8080/message?newMessage=mymessage> (Create a message)
-POST <http://localhost:8080/message/async?newMessage=mymessageasync> (Create a message assyncrounously)
+* GET <http://localhost:8080/message> (Retrieve all consumed messages)
+* POST <http://localhost:8080/message?newMessage=mymessage> (Create a message)
+* POST <http://localhost:8080/message/async?newMessage=mymessageasync> (Create a message asynchronously)
 
-* Postman collection available in repository
+> Postman collection available in repository
 
-Services Ports:
+**Services Ports**:
 
 | Service           | Port              |
 | ----------------- |------------------:|
